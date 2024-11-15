@@ -1,0 +1,48 @@
+name: f_journey_driver
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.6
+  go_router: ^14.2.6
+  dio: ^5.6.0
+  get_it: ^7.7.0
+  fpdart: ^1.1.0
+  lottie: ^3.1.2
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+  dotted_border: ^2.1.0
+  image_picker: ^1.1.2
+  flutter_otp_text_field: ^1.2.0
+  shared_preferences: ^2.3.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_dotenv: ^5.2.1
+  google_maps_flutter: ^2.9.0
+  http_parser: ^4.0.2
+  flutter_inappwebview: ^6.1.5
+  url_launcher: ^6.3.1
+  http: ^1.2.2
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animation/
+    - .env
